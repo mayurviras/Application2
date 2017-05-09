@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -21,5 +22,8 @@ public class Main2Activity extends AppCompatActivity {
     private void method1()
     {
       startActivity(new Intent(this,Main2Activity.class));
+        Toast.makeText(this,"add Toast",Toast.LENGTH_LONG).show();
     }
+
+
 }
