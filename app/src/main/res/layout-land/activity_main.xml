@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mayur.application2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="595dp"
+        android:layout_height="514dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="-9dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="UserName"
+                android:textSize="20dp" />
+
+            <EditText
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8.20"
+                android:hint="Enter Your Name" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="Password"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+
+                android:hint="Password" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Login" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
